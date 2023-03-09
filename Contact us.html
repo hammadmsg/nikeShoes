@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Nike Shoes Store|Men's Kid's Female's</title>
+</head>
+<style>
+  #example7{
+      color: rgb(230, 191, 191);
+      font-size: 40px;
+      -webkit-text-stroke-width: 3px;
+       -webkit-text-stroke-color: rgb(244, 216, 216);
+       text-align: center;
+   }
+</style>
+<body>
+    <!-------------Header---------->
+    <header>
+        <div class=" d-flex justify-content-center align-items-center flex-column  ">
+          <img
+              src="./logo.jpg" class="rounded-circle mt-1  " autoplay height="130" muted style="border: 0.3rem solid  #f4f2eb;"></img>
+              <p id="example2">Nike Shoes Store</p>
+       </header>
+       <!-----------NavBar----------->
+       <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-warning">
+        <div class="container-fluid">
+          <span class="navbar-brand text-danger fs-4 " style="font-family: 'Galada', cursive;"  >Nike Shoes Store</span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item px-lg-2 px-md-0 "  >
+                <a class="nav-link active fs-4 " aria-current="page" href="././index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-4 " href="#">Men Shoes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-4 " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nike Shoes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./men's.html">Men's </a></li>
+                  <li><a class="dropdown-item" href="./kid's.html">Kid's</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./female.html">Female's</a></li>
+                </ul>
+              </li>
+              <li class="nav-item nav-item px-lg-2 px-md-0 ">
+               
+                <a class="nav-link fs-4 " href="">About us</a>
+              </li>
+              <li class="nav-item nav-item px-lg-2 px-md-0 ">
+                
+                <a class="nav-link fs-4" href="">Contact us</a>
+              </li>
+            </ul>
+            
+              
+        
+          </div>
+        </div>
+      </nav>
+    <!----------Contact--------->
+    <!--Section: Contact v.2-->
+<section class="mb-4">
+
+  <!--Section heading-->
+  <p id="example7">Contact us</p>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5 text-white ">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+      a matter of hours to help you.</p>
+  
+  <div class="row container-fluid ">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                    
+                      <div class="md-form mb-0 text-white ">
+                        <label for="name" class="">Your name</label>
+                          <input type="text" id="name" name="name" class="form-control" required placeholder="Enter Your Name" >
+                         
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6 text-white ">
+                    <label for="email" class="">Your email</label>
+                      <div class="md-form mb-0 text-white ">
+                          <input type="text" id="email" name="email" class="form-control" required placeholder="Enter Your Email" >
+                          
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12 text-white ">
+                      <div class="md-form mb-0"  >
+                        <label for="subject" class="">Subject</label>
+                          <input type="text" id="subject" name="subject" class="form-control" required placeholder="Enter Your Subject" >
+                          
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form text-white ">
+                        <label for="message">Your message </label>
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" required placeholder="Enter Your feedback" ></textarea> 
+                      
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+          <br>
+          <div class="text-center text-md-left">
+              <a class="btn btn-danger" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                <img src="./img/location.png" width="30" alt="">
+                  <p class="text-white" >Aptech Learning (MSG)</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                <img src="./img/contactt.png" width="30" alt="">
+                  <p class="text-white" >+ 33-603-68846</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                <img src="./img/email.png" width="30" alt="">
+                  <p class="text-white" >hammadahmed@gmail.com</p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+
+</section>
+ <!------------Footer---------->
+                 <!-- Footer -->
+                 <footer class="text-center text-lg-start bg-warning  text-dark" style="width: 100%; height: 550px; "  >
+                  <!-- Section: Social media -->
+                  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <!-- Left -->
+                    <div class="me-5 d-none d-lg-block">
+                      <span>Get connected with us on social networks:</span>
+                    </div>
+                    <!-- Left -->
+                
+                    <!-- Right -->
+                    
+                    <div>
+                      <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-google"></i>
+                      </a>
+                      <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                      <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </div>
+                    <!-- Right -->
+                  </section>
+                  <!-- Section: Social media -->
+                
+                  <!-- Section: Links  -->
+                  <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                      <!-- Grid row -->
+                      <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                          <!-- Content -->
+                          <p id="example3">Nike Shoes Store</p>
+                          <p>
+                            Nike, Inc. (stylized as NIKE)[note 1] is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services.
+                          </p>
+                        </div>
+                        <!-- Grid column -->
+                
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                          <!-- Links -->
+                          <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                          </h6>
+                          <p>
+                            <a href="#!" class="text-reset">Angular</a>
+                          </p>
+                          <p>
+                            <a href="#!" class="text-reset">React</a>
+                          </p>
+                          <p>
+                            <a href="#!" class="text-reset">Vue</a>
+                          </p>
+                          <p>
+                            <a href="#!" class="text-reset">Laravel</a>
+                          </p>
+                        </div>
+                        <!-- Grid column -->
+                
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                          <!-- Links -->
+                          <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                          </h6>
+                          <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                          </p>
+                          <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                          </p>
+                          <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                          </p>
+                          <p>
+                            <a href="#!" class="text-reset">Help</a>
+                          </p>
+                        </div>
+                        <!-- Grid column -->
+                
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                          <!-- Links -->
+                          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                          <p><i class="fas fa-home me-3 text-secondary"></i>Aptech Learning (MSG)</p>
+                          <p>
+                            <i class="fas fa-envelope me-3 text-secondary"></i>
+                            hammadahmed@gmail.com
+                          </p>
+                          <p><i class="fas fa-phone me-3 text-secondary"></i> + 33-603-68846 </p>
+                          <p><i class="fas fa-print me-3 text-secondary"></i> + 3100205155</p>
+                        </div>
+                        <!-- Grid column -->
+                      </div>
+                      <!-- Grid row -->
+                    </div>
+                  </section>
+                  <!-- Section: Links  -->
+                
+                  <!-- Copyright -->
+                  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+                    © 2023 Copyright:
+                    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Nike Shoes Store</a>
+                  </div>
+                  <!-- Copyright -->
+                </footer>
+                <!-- Footer -->
+ <script src="./js/bootstrap.min.js"></script>  
+    
+</body>
+</html>
